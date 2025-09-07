@@ -39,6 +39,11 @@ Everyone took turns to speak and shared what they have done so far, what they ar
 
 **Participate in a retrospective or review past notes from one.**
 
+![[Pasted image 20250906142812.png]]
+
 **Document one change you can make to improve your team collaboration.**
 
 I should be more concise in how I share my updates.
+
+
+
