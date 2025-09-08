@@ -1,0 +1,1 @@
+No challenges faced, the installation guide in Tailwind's and Vite's documentations was very straightforward. I did have to think for a bit if I wanted to import Tailwind globally in App.css or index.css, and decided to go with index.css.
