@@ -8,3 +8,7 @@ However, after encountering a few bugs, and committing a few errors due to my la
 
 ## What was the most interesting thing you learned about Git today?
 I learned about git stash, which lets developers remove their uncommitted changes to their code and recover them later. This is useful in cases where I have made some changes to a branch, and along the way, realized that it is better to put those changes in a separate new branch; I can conveniently run git stash, create and move to a new branch, then run git stash pop to bring those changes over to the new branch.
+
+## Commit and push your changes to GitHub
+![[Pasted image 20251014135549.png]]
+
