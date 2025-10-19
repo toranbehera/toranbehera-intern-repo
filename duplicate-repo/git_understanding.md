@@ -1,3 +1,16 @@
+## Create a new branch 
+![[Pasted image 20251019164106.png]]
+
+## Make a small change and push the branch to Github
+![[Pasted image 20251019164316.png]]
+
+## Open a Pull Request on GitHub
+![[Pasted image 20251019163953.png]]
+
+## Review an existing PR
+![[Pasted image 20251019164742.png]]
+PR link: https://github.com/facebook/react/pull/34755
+
 ## Why are PRs important in a team workflow?
 Pull requests add structure to the workflow followed in a team by enforcing a structure of adding changes to a repo where teammates have to 'request' for their changes to be merged with a branch and someone has to approve the request. This extra step enables the repo owner to review the changes to a branch and comment on it to inform the contributor about any changes that they need to make to their PR before merging, preventing any unwanted changes from being made and empowering communication between team members.
 
@@ -28,3 +41,17 @@ PRs can also come hand-in-hand in CI/CD automated workflows, where PRs will auto
 	- designers can be added to pull requests for front-end changes; they can spot any mistakes earlier in the process with the help of screenshots
 
 ## What did you learn from reviewing an open-source PR?
+1. Comments and discussions
+	- The first comment in the PR is the description of the PR
+	- The description usually starts with a line that explains the action taken place by using a keyword followed by the link to the issue
+	- github actions triggers automated tests, and any unsuccessful tests are visible through a red cross icon 
+	- github actions may trigger a bot to automatically produce feedback on the PR
+	- in the case of the PR that I looked at, a bot called react-sizebot responded to the PR by reporting on bundle size comparisons against the production branch and emphasized on size changes greater than 2%
+	- the contributor then addressed any suggestions from the bot through three new commits
+	- all unsuccessful automated tests then passed, and then the contributor requested a review on the PR
+	- a small box pops up confirming that the review has been requested, a person with their profile displayed has been assigned to review it, the PR passes all automated tests, and it does not have any conflicts with the main branch
+
+The key takeaway from this PR was that oftentimes, feedback is automated via bots, and a lot of actions carried out by the contributor after getting automated feedback, bot from a bot and the automated tests, mostly involved addressing the errors that arose in the automated checks and the bot's feedback. Most conversation inside PRs appear to be short (up to 3 comments) and mainly involve a contributor making changes and a bot automatically giving feedback, or the results of automated tests being displayed.
+
+2. How changes are requested and approved
+Oftentimes, the changes needed to be made are showed through the failed tests that run automatically via github actions and via a bot that automatically goes through the code and reports any necessary changes that need to be made. In the case of the PR that I looked at, the bot reported the bundles that were more than 2% larger than the one in the production branch.
