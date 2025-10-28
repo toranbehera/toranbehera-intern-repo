@@ -50,7 +50,7 @@ https://www.reddit.com/r/ADHD/comments/127jxcc/productivity_tools/
 - They also figured that they prefer putting all tasks in a single to-do list page instead of having separate pages for each category of tasks, else, by their words 'I'll forget that I have a job or a life'
 
 - wafflehousewife69 enjoys using Planner Pad as it lets them organise and pinpoint tasks according to their level of urgency
-
+- 
 - Peppermint_Sonata uses an Excel spreadsheet to organise their tasks as it does not grant them a lot of customisability, which mitigates the problem of getting sucked into over-customising the tool of choice
 
 - [x] Identify **one design or communication improvement** that could make Focus Bear more accessible.
